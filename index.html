@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 400px;
+  }
+  </style>
+</head>
+<body class="bg-primary">
+<div class="container">
+  <nav class="navbar bg-dark justify-content-center navbar-dark navbar-expand-sm">
+    <a class="navbar-brand" href="#">
+      <img src="https://banner2.cleanpng.com/20180312/hdq/kisspng-logo-wedding-marriage-wedding-letterbox-5aa639d802ce28.5063699815208432240115.jpg" alt="Logo" style="width: 60px;">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-danger" href="#">GIRI1</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-danger" href="#">GIRI2</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-danger" href="#">GIRI3</a>
+      </li>
+      <!---dropdown-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-success" href="#" data-toggle="dropdown">
+          Gallery
+        </a>
+        <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">link1</a>
+        <a class="dropdown-item" href="#">link2</a> 
+        <a class="dropdown-item" href="#">link3</a>           
+        </div>
+      </li>
+      <form class="form-inline">
+        <input class="form-control mr-sm-4" type="text" name="" placeholder="Search">
+      <button class="btn btn-warning" type="submit">Search</button>  
+      </form>
+    </ul>
+  </nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://c8.alamy.com/comp/P8G303/wedding-reception-stage-P8G303.jpg" alt="Los Angeles" width="100%" height="400px">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.hipwallpaper.com/i/97/32/qAMZU2.jpg" alt="Chicago" width="100%" height="400px">
+    </div>
+    <div class="carousel-item">
+      <img src="https://c8.alamy.com/comp/M32D4T/wedding-stage-decoration-background-M32D4T.jpg" alt="New York" width="100%" height="400px">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.samsonpro.com/wp-content/uploads/2018/04/samson-productins-lakers-inspired-wedding-long-beach-hilton2.jpg" alt="New York" width="100%" height="400px">
+    </div>
+    <div class="carousel-item">
+      <img src="https://jharkhandbihar.com/productimages/28561.jpg" alt="New York" width="100%" height="400px">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+
+</body>
+</html>
